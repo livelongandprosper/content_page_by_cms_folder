@@ -1,8 +1,7 @@
 <?php
 
-class content_page_by_cms_folder extends content_page_by_cms_folder_parent
-{
-	// 
+class content_page_by_cms_folder extends content_page_by_cms_folder_parent {
+	// array of pages _page_list[CMS_FOLDER_NAME] = $array_of_page_ids
 	protected $_page_list = null;
 	
 	public function get_cms_pages_by_cms_folder($cms_folder) {
