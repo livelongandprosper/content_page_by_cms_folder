@@ -26,5 +26,6 @@ ability to structure content pages in front end e.g. with the follwing smarty sn
 
 Install:
 Copy the content of copy_this to the root directory of the OXID eShop installation.
+Execute content_page_by_cms_folder.sql via Service -> Tools -> Update SQL
 Change your templates so that they use the module.
 Activate the module via backend.
