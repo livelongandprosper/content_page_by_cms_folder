@@ -29,7 +29,7 @@ Execute content_page_by_cms_folder.sql via Service -> Tools -> Update SQL
 Change your templates so that they use the module.
 Activate the module via backend.
 Clear TMP-Folder
-Ipdate Views (Service -> Tools -> Update Views)
+Update Views (Service -> Tools -> Update Views)
 
 Sorting CMS-Content-Pages:
 Use the new text field "Sortierung / Order" in Customer Info -> CMS Pages to
