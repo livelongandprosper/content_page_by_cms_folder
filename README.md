@@ -15,11 +15,11 @@ Tested with OXID eShop CE 4.8.1.
 Install
 ==========================
 - Copy the content of copy_this to the root directory of the OXID eShop installation.
-- Execute content_page_by_cms_folder.sql via Service -> Tools -> Update SQL
-- Change your templates so that they use the module.
+- Execute /content_page_by_cms_folder.sql via Service -> Tools -> Update SQL
 - Activate the module via backend.
 - Clear TMP-Folder
 - Update Views (Service -> Tools -> Update Views)
+- Change your templates so that they use the module (see "How to use").
 
 Sorting CMS-Content-Pages
 ==========================
