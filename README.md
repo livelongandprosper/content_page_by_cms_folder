@@ -1,7 +1,11 @@
 content_page_by_cms_folder
 ==========================
 
-Tested with OXID eShop CE 4.7.2.
+Features:
+- display CMS Pages of an CMS Folder as List by using this module with smarty template code
+- sorting
+
+Tested with OXID eShop CE 4.8.1.
 
 This Module uses content folders in OXID eShop for returning content-page ids via
 the oxviewconfig function get_cms_pages_by_cms_folder("CMS_FOLDER_NAME"). This gives you the
