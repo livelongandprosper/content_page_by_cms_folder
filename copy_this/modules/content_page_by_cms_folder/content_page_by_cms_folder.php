@@ -36,9 +36,11 @@ class content_page_by_cms_folder extends content_page_by_cms_folder_parent
 				FROM
 					oxcontents
 				WHERE
-						OXFOLDER='".mysql_real_escape_string($cms_folder)."' ORDER BY CONTENT_PAGE_ORDER
+						OXFOLDER='".mysql_real_escape_string($cms_folder)."'
 					AND
 						OXACTIVE = '1'
+				 ORDER BY
+				 	CONTENT_PAGE_ORDER
 			;";
 			$temp = oxDb::getDB(true)->GetAll($sql);
 			if(sizeof($temp)) {
